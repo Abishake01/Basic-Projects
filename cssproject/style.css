@@ -1,0 +1,124 @@
+
+nav{
+    background-color: rgb(255, 236, 141);
+    color: black;
+    padding: 10px;
+
+}
+ 
+h3,ul,li{
+    
+    display: inline;
+}
+li:hover{
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+}
+.fine{
+    width: 700px; padding: 10px; align-items: center; margin-left: 400px;  
+}
+.are{
+    
+    color:black;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 240px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+.ok{
+    height: 200px; width: 200px;
+ 
+}
+.are:hover{
+    background-color: black;
+    color: white;
+}
+.Home{
+  margin-left: 250px;
+}
+.main{
+    margin-left: 60%;
+}
+ 
+ h2{
+    display: inline;
+ }
+ h1{
+    text-align: center;
+    padding-top: 20px;
+ }
+ .contact{
+    color: azure;
+    background-color: black   
+ }
+ .no{
+    margin-left: 250px;
+    height: 600px;
+    width: 1000px;
+}
+ 
+ @media screen and (max-width:600px) {
+
+   
+nav{
+    font-size: 12px;
+    background-color: rgb(255, 236, 141);
+    color: black;
+    padding: 10px;
+
+}
+.fine{
+    width: 200px; padding: 5px; align-items: center; margin-left: 90px;  
+}
+.ok{
+    height: 130px; width: 130px;
+ 
+}
+ 
+h3,ul,li{
+    
+    display: inline;
+}
+.main{
+    margin-left: 5%;
+}
+li:hover{
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+}
+    .are{
+        font-size: 15px;
+        
+        color:black;
+        background-color: white;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        width: 180px;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+    .are:hover{
+        background-color: black;
+        color: white;
+    }
+    .Home{
+      margin-left: 100px;
+    }
+    .no{
+        margin-left: 10px;
+        height: 320px;
+        width: 320px;
+    }
+        
+    
+ }
+  
