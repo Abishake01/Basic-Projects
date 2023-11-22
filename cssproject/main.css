@@ -74,7 +74,7 @@ nav{
 
 }
 .fine{
-    width: 200px; padding: 5px; align-items: center; margin-left: 90px;  
+    width: 200px; padding: 5px; align-items: center; margin-left: 70px;  
 }
 .ok{
     height: 130px; width: 130px;
@@ -86,7 +86,7 @@ h3,ul,li{
     display: inline;
 }
 .main{
-    margin-left: 5%;
+    margin-left: 3%;
 }
 li:hover{
     color: rgb(0, 136, 255);
@@ -111,7 +111,7 @@ li:hover{
         color: white;
     }
     .Home{
-      margin-left: 100px;
+      margin-left: 80px;
     }
     .no{
         margin-left: 10px;
