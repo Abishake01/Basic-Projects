@@ -44,7 +44,7 @@ nav a{
 }
 .carousel .list .items .content{
     position: absolute;
-    top: 20%;
+    top: 10%;
     width: 1140px;
     max-width: 80%;
     left: 50%;
@@ -78,7 +78,7 @@ nav a{
 }
 .carousel .list .items .content button{
     border: none;
-    background-color: white;
+    background-color: black;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: 500;
@@ -123,7 +123,7 @@ nav a{
 /*Arrows*/
 .arrows{
     position: absolute;
-    top: 80%;
+    top: 85%;
     right: 52%;
     width: 300px;
     max-width: 30%;
