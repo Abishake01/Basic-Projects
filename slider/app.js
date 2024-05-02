@@ -1,8 +1,8 @@
 let nextDom = document.getElementById('next');
 let prevDom = document.getElementById('prev');
-let carouselDom = document.getElementById('.carousel');
-let listItemsDom = document.getElementById('.carousel .list');
-let thumbnailDom = document.getElementById('.carousel .thumbnail');
+let carouselDom = document.querySelector('.carousel');
+let listItemsDom = document.querySelector('.carousel .list');
+let thumbnailDom = document.querySelector('.carousel .thumbnail');
 
 nextDom.onclick = function(){
      showSlider('next');
@@ -18,8 +18,8 @@ let runAutoRun =setTimeout(() =>{
 
 },timeAutoNext);
 function showSlider (type){
-    let itemSlider = document.getElementById('.carousel .list .items');
-    let itemThumbnail = document.getElementById('.carousel .thumbnail .items');
+    let itemSlider = document.querySelectorAll('.carousel .list .items');
+    let itemThumbnail = document.querySelectorAll('.carousel .thumbnail .items');
 
     if(type === 'next'){
         listItemsDom.appendChild(itemSlider[0]);
@@ -35,7 +35,7 @@ function showSlider (type){
     runTimeOut = setTimeout(() =>{
         carouselDom.classList.remove('next');
         carouselDom.classList.remove('prev');
-    } ,timeRunning)
+    } , timeRunning)
     clearTimeout(runAutoRun);
     runAutoRun=setTimeout(() =>{
         nextDom.click();

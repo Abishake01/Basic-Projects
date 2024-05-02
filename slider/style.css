@@ -12,7 +12,7 @@ a{
     color: white;
 
 }
-header{
+nav{
     width: 1140px;
     max-width: 80%;
     margin: auto;
@@ -22,7 +22,7 @@ header{
     position: relative;
     z-index: 100;
 }
-header a{
+nav a{
     margin-right: 40px;
 }
 /*Carousel*/
